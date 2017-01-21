@@ -1,4 +1,31 @@
 # mock-services - Simulador de serviços HTTP/HTTPs
 
-Mock Services é utilizado para simular uma chamada externa do qual sua aplicação depende.
-Utilizado em test-cases, possibilita que um serviço possa retornar os dados conforme a necessidade.
+Mock Services é utilizado para simular uma chamada externa a um serviço no qual sua aplicação depende.
+
+Manipula o retorno de um serviço para ser usado no teste da funcionalidade em desenvolvimento.
+
+## Exemplos
+
+## TODO
+- Habilitar a possibilidade HTTPs
+
+## MIT License
+Copyright (c) 2017 [Jayder França](mailto:jayderfranca@gmail.com)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
