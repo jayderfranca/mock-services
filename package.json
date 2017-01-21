@@ -4,7 +4,8 @@
   "description": "Mock de serviços HTTP/HTTPs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "NODE_ENV=test ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --timeout 15000 -R spec --recursive"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,14 @@
   "bugs": {
     "url": "https://github.com/jayderfranca/mock-services/issues"
   },
-  "homepage": "https://github.com/jayderfranca/mock-services#readme"
+  "homepage": "https://github.com/jayderfranca/mock-services#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
 }
